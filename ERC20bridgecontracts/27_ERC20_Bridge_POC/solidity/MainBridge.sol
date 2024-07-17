@@ -5,10 +5,10 @@ pragma solidity ^0.8.0;
 //this is a contract for the for the main bridge 
 
 //Remix style import
-//import { IERC20 } from "@openzeppelin/contracts@4.0.0/token/ERC20/IERC20.sol";
+import { IERC20 } from "@openzeppelin/contracts@4.0.0/token/ERC20/IERC20.sol";
 
 //Brownie style import
-import { IERC20 } from "OpenZeppelin/openzeppelin-contracts@4.0.0/contracts/token/ERC20/IERC20.sol";
+//import { IERC20 } from "OpenZeppelin/openzeppelin-contracts@4.0.0/contracts/token/ERC20/IERC20.sol";
 
 
 contract MainBridge {
