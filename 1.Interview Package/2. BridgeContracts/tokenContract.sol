@@ -10,7 +10,7 @@ import { ERC20 } from "OpenZeppelin/openzeppelin-contracts@4.0.0/contracts/token
 //minting an intital supply to the mainnet
 
 contract ImperialCredits is ERC20 {
-    constructor(uint256 initialSupply) ERC20("ImperialsCredits", "ICR") { //naming the coin and creating the supply
+    constructor(uint256 initialSupply) ERC20("Ilya Coin", "IAO") { //naming the coin and creating the supply
         _mint(msg.sender, initialSupply); // mint the initial supply
     }
 }
